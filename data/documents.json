@@ -1,0 +1,24 @@
+
+[
+  {
+    "document_id": "rag-001",
+    "title": "Introduction to Retrieval-Augmented Generation",
+    "content": "Retrieval-Augmented Generation, also known as RAG, combines document retrieval with language model generation. The application retrieves relevant information from a knowledge source and passes it to a language model to generate a context-grounded answer.",
+    "page_number": 1,
+    "source_url": "https://example.com/rag-introduction"
+  },
+  {
+    "document_id": "rag-002",
+    "title": "Azure AI Search",
+    "content": "Azure AI Search is a managed search service that can index documents and retrieve relevant information. It supports full-text search, vector search, and hybrid search. A RAG application can use search results as context for a language model.",
+    "page_number": 1,
+    "source_url": "https://example.com/azure-ai-search"
+  },
+  {
+    "document_id": "rag-003",
+    "title": "Agentic RAG",
+    "content": "Agentic RAG adds an agent orchestration layer to retrieval-augmented generation. The agent can decide when to retrieve information, use tools, evaluate intermediate results, and formulate a final answer.",
+    "page_number": 1,
+    "source_url": "https://example.com/agentic-rag"
+  }
+]

@@ -1,0 +1,38 @@
+
+# Secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage and test artifacts
+.coverage
+htmlcov/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated data and local model artifacts
+models/
+artifacts/
+
+# Streamlit local configuration
+.streamlit/secrets.toml

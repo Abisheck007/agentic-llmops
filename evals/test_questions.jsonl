@@ -1,0 +1,4 @@
+
+{"id":"rag-001","question":"What is Retrieval-Augmented Generation (RAG)?","expected_keywords":["retrieval","generation","knowledge"]}
+{"id":"search-001","question":"What is Azure AI Search used for?","expected_keywords":["search","documents","index"]}
+{"id":"agent-001","question":"What is Agentic RAG, and how does it use Azure AI Search?","expected_keywords":["agent","orchestration","retrieval","search"]}

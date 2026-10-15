@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-10-14T11:05:28.493244+00:00",
+  "dataset": "evals\\test_questions.jsonl",
+  "total_cases": 3,
+  "passed": 3,
+  "failed": 0,
+  "errors": 0,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "id": "rag-001",
+      "question": "What is Retrieval-Augmented Generation (RAG)?",
+      "status": "passed",
+      "latency_ms": 5791.65,
+      "retrieved_document_count": 3,
+      "retrieval_keyword_coverage": 1.0,
+      "answer_keyword_coverage": 1.0,
+      "citation_present": true,
+      "agent_steps": [
+        "Retrieved 3 document(s) from Azure AI Search.",
+        "Retrieved context appears relevant to the question.",
+        "Generated an answer using the retrieved context."
+      ],
+      "checks": {
+        "answer_present": true,
+        "retrieval_step_present": true,
+        "retrieval_keyword_coverage": true,
+        "answer_keyword_coverage": true,
+        "citation_present": true
+      }
+    },
+    {
+      "id": "search-001",
+      "question": "What is Azure AI Search used for?",
+      "status": "passed",
+      "latency_ms": 2358.4,
+      "retrieved_document_count": 1,
+      "retrieval_keyword_coverage": 1.0,
+      "answer_keyword_coverage": 1.0,
+      "citation_present": true,
+      "agent_steps": [
+        "Retrieved 1 document(s) from Azure AI Search.",
+        "Retrieved context appears relevant to the question.",
+        "Generated an answer using the retrieved context."
+      ],
+      "checks": {
+        "answer_present": true,
+        "retrieval_step_present": true,
+        "retrieval_keyword_coverage": true,
+        "answer_keyword_coverage": true,
+        "citation_present": true
+      }
+    },
+    {
+      "id": "agent-001",
+      "question": "What is Agentic RAG, and how does it use Azure AI Search?",
+      "status": "passed",
+      "latency_ms": 6495.9,
+      "retrieved_document_count": 3,
+      "retrieval_keyword_coverage": 1.0,
+      "answer_keyword_coverage": 1.0,
+      "citation_present": true,
+      "agent_steps": [
+        "Retrieved 3 document(s) from Azure AI Search.",
+        "Retrieved context appears relevant to the question.",
+        "Generated an answer using the retrieved context."
+      ],
+      "checks": {
+        "answer_present": true,
+        "retrieval_step_present": true,
+        "retrieval_keyword_coverage": true,
+        "answer_keyword_coverage": true,
+        "citation_present": true
+      }
+    }
+  ]
+}
